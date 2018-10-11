@@ -25,9 +25,9 @@ int main(){
 	print_list(head);
 	printf("\nfree the linked list by using \"free_list(head)\"\n\n");
 	//printf("%d\n",free_list(head));
-	free_list(head);
+	printf("return value: %d\n",free_list(head));
 	
-	printf("(YES, I WROTE MY OWN FREE() FUNCTION BECAUSE WHO EVER WROTE THE FREE FUNCTION IN STDLIB IS A BIG FAT IDIOT WHO WASTED HOURS OF MY LIFE SEARCHING ON STACK OVERFLOW AND OTHER FORUMS WHILE DOING THIS HW!!!!!!!!!!!!!!!!)\n");
+	//printf("(YES, I WROTE MY OWN FREE() FUNCTION BECAUSE WHO EVER WROTE THE FREE FUNCTION IN STDLIB IS A BIG FAT IDIOT WHO WASTED HOURS OF MY LIFE SEARCHING ON STACK OVERFLOW AND OTHER FORUMS WHILE DOING THIS HW!!!!!!!!!!!!!!!!)\n");
 
 	printf("\nlet's print list out:\n\n");
 	print_list(head);
