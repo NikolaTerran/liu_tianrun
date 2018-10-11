@@ -5,8 +5,11 @@
 struct node * insert_front(struct node *list, int i){
 	struct node *x;	
 	struct node new_node = {i,list};
-	x = (struct node*)malloc(50);
-	*x = new_node;
+	x = malloc(64);
+	//x->next = malloc(8);
+	x->i = new_node.i;
+	x->next = new_node.next;
+	//x = list; 			//will not work
 	//printf("%d\n",x->next->next);
 	return x;
 }

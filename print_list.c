@@ -11,6 +11,10 @@ void print_list(struct node *list){
 	//}while(list->next);
 	if(list->next){
 		printf("%d\n",list->i);
+		//printf("%d\n",list->next); //print next node's address
 		print_list(list->next);
+	}
+	else{	//else is included because the stack value is still on the stack
+		printf("%d\n",list->i);
 	}
 }
