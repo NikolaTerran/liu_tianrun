@@ -33,7 +33,7 @@ int main(){
 	print_list(head);
 
 	printf("yeah! But seriously though, you have to look at my commented debug code to see the frustration I had when working with free() in stdlib. I DESERVE a trophy for that\n\n");
-	printf("also, lesson learned, whenever stdlib function failed to do the job, just write a custom function instead.\n");
+	//printf("also, lesson learned, whenever stdlib function failed to do the job, just write a custom function instead.\n");
 	//printf("\nas you see, nodes have been filled by reference addresses, I don't know what's going on, I think it has to do with free(), but I'm just going to end right here\n\n");
 	//printf("However if you deref the address of the node you'll get a:\n");
 	//printf("%d\n",*head);
