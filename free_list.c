@@ -27,9 +27,9 @@ struct node* free_list(struct node *list){
 		free(list);
 		//custom_free(list);
 	}
-	list->next = NULL;
-	list->i = NULL;
-	list = NULL;
-	printf("****node freed****\n");
-	return list;
+	//list->next = NULL;
+	//list->i = NULL;
+	//list = NULL;
+	//printf("****node freed****\n");
+	return NULL;
 }

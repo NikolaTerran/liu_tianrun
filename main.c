@@ -26,10 +26,11 @@ int main(){
 	printf("\nfree the linked list by using \"free_list(head)\"\n\n");
 	//printf("%d\n",free_list(head));
 	printf("return value: %d\n",free_list(head));
+	head = NULL;//free_list(head);
 	
 	//printf("(YES, I WROTE MY OWN FREE() FUNCTION BECAUSE WHO EVER WROTE THE FREE FUNCTION IN STDLIB IS A BIG FAT IDIOT WHO WASTED HOURS OF MY LIFE SEARCHING ON STACK OVERFLOW AND OTHER FORUMS WHILE DOING THIS HW!!!!!!!!!!!!!!!!)\n");
 
-	printf("\nlet's print list out:\n\n");
+	printf("\nlet's print list out: \n\n");
 	print_list(head);
 
 	printf("yeah! But seriously though, you have to look at my commented debug code to see the frustration I had when working with free() in stdlib. I DESERVE a trophy for that\n\n");

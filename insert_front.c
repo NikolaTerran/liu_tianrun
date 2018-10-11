@@ -4,6 +4,8 @@
 
 struct node * insert_front(struct node *list, int i){
 	struct node *x;	
+	//struct node new_node = malloc(32); //never tested this section
+	//new_node = {i,list};
 	struct node new_node = {i,list};
 	x = malloc(64);
 	//x->next = malloc(8);
